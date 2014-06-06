@@ -1,4 +1,4 @@
-Bsm Text Marquee
+BSM Text Marquee
 ==============
 
 Text Marquee Wordpress Plugin

@@ -2,7 +2,6 @@
 function bsm_tm_create() {
 
 	if(isset($_POST['insert'])){
-		require_once('../wp-config.php');
 		global $wpdb;
 		$table_name = $wpdb->prefix . "tbbsmtextmarquee";
 		$wpdb->insert(

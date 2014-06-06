@@ -2,7 +2,7 @@
 /*
 Plugin Name: BSM Text Marquee
 Plugin URI: http://bsmsite.com
-Description: Text Marquee. sebuah plugin untuk text berjalan yang dapat diletakan dimanapun pada halaman frontend Wordpress Anda.
+Description: Text Marquee. a plugin for running text that can be placed anywhere on your WordPress frontend page.
 Author: Irfan Mahfudz Guntur
 Version: 1.0
 Author URI: http://bsmsite.com
