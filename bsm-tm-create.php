@@ -4,15 +4,17 @@ function bsm_tm_create() {
 	if(isset($_POST['insert'])){
 		global $wpdb;
 		$table_name = $wpdb->prefix . "tbbsmtextmarquee";
-		$wpdb->insert(
-					$table_name,
-						array(
-							'text_slide' => $_POST['intextdata']
-						),
-						array(
-							'%s'
-						)
-					);
+
+		$wpdb->query( $wpdb->prepare( 
+			"
+				INSERT INTO $table_name
+				( text_slide )
+				VALUES ( %s )
+			", 
+			array(
+		        $_POST['intextdata']
+		        )
+		) );
 
 		$message.="Teks Sudah Ditambahkan";
 	}
